@@ -1,0 +1,39 @@
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 4rem;
+	position: sticky;
+	width: 100%;
+	z-index: 999;
+	top: 0;
+	background-color: #0071ad;
+}
+
+.logo {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navigation ul {
+	list-style: none;
+	display: flex;
+	color: white;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+
+.navigation ul li {
+	padding: 1rem;
+	transition: all 0.2s ease-in-out;
+}
+
+.navigation ul li:hover {
+	transform: scale(1.1);
+}
+
+.active {
+	font-weight: bold;
+}
