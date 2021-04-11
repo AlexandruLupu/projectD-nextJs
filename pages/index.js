@@ -27,7 +27,7 @@ export async function getStaticProps() {
 
 		return {
 			props: { posts: JSON.parse(JSON.stringify(reponse)) },
-			revalidate: 1800,
+			revalidate: 1,
 		};
 	} catch (error) {
 		return {

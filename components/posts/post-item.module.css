@@ -17,6 +17,7 @@
 	flex: 1;
 	justify-content: flex-end !important;
 	cursor: pointer;
+	background-color: "#0071ad";
 }
 
 .showMoreLink {

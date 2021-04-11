@@ -15,7 +15,7 @@ function MainHeader() {
 							src="/images/Social-Jam.png"
 							alt="Social Jam logo"
 							width={150}
-							height={40}
+							height={39.9}
 						/>
 					</a>
 				</Link>

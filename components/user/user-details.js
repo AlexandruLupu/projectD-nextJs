@@ -53,6 +53,7 @@ function UserDetails(props) {
 								aria-label="User image"
 								src={userState.imageUrl}
 								style={{ height: "56px", width: "56px" }}
+								alt={`${userState.displayName} Avatar`}
 							></Avatar>
 						) : (
 							<Skeleton variant="circle">
@@ -69,6 +70,7 @@ function UserDetails(props) {
 					<CardActions>
 						<Button
 							color="primary"
+							style={{ backgroundColor: "#0071ad" }}
 							size="small"
 							endIcon={
 								userState.following ? <FavoriteIcon /> : <FavoriteBorderIcon />

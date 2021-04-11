@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Button as MuiButton } from "@material-ui/core";
 
 function Button(props) {
-	const { link, color, endIcon, size, onClick, children } = props;
+	const { link, color, endIcon, size, onClick, children, ...other } = props;
 
 	if (link) {
 		return (
@@ -19,6 +19,7 @@ function Button(props) {
 			startIcon={endIcon}
 			size={size}
 			onClick={onClick}
+			{...other}
 		>
 			{children}
 		</MuiButton>
